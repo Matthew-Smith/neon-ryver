@@ -27,6 +27,10 @@
         background: rgba(0, 0, 0, 0.4)!important;
     }
 
+    .chat-message__item.is-editing, .chat-message__item.is-selected {
+        background: rgba(64, 64, 64, 0.7)!important
+    }
+
     .is-link {
         color: #01FD86 !important
     }
