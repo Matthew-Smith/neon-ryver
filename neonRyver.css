@@ -97,4 +97,12 @@
     .scene-space__button-wrapper {
         border-right: 1px solid #00C2FF;
     }
+
+    .hljs-attribute, .hljs-name, .hljs-tag {
+        color: #bb77ff;
+    }
+
+    .hljs-keyword, .hljs-selector-tag, .hljs-subst {
+        color: #00C2FF;
+    }
 }
