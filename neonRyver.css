@@ -41,6 +41,10 @@
         color: #00C2FF;
     }
 
+    .scene-space-tab-button--sticky:not(:first-child) > * {
+        color: #00C2FF;
+    }
+
     .markdown-editor.has-auto-height .markdown-editor__input {
         color: #eee;
     }
