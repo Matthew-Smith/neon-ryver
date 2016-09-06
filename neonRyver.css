@@ -1,12 +1,10 @@
 @-moz-document regexp("https://.*\\.ryver.com/index\\.html.*") {
     * {
         background: rgba(0, 0, 0, 0)!important;
-        text-shadow: 0 0 10px;
         color: #c0c0c0;
     }
-
     .scene-space {
-        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('https://raw.githubusercontent.com/Matthew-Smith/neon-slack/master/slackBG.jpg')!important;
+        background: rgba(24, 30, 27, 1.0) !important;
         color: #c0c0c0;
         background-size: 100% 120%!important;
         background-repeat: no-repeat!important;
