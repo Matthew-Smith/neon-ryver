@@ -1,5 +1,5 @@
 @-moz-document regexp("https://.*\\.ryver.com/index\\.html.*") {
-    * {
+    *:not([data-presence-for]) {
         background: rgba(0, 0, 0, 0)!important;
         text-shadow: 0 0 10px;
         color: #c0c0c0;
@@ -112,5 +112,12 @@
 
     .hljs-keyword, .hljs-selector-tag, .hljs-subst {
         color: #bb77ff;
+    }
+
+    .scene-space-tab-button .icon-close {
+        visibility: hidden;
+    }
+    .scene-space-tab-button:hover .icon-close {
+        visibility: visible;
     }
 }
