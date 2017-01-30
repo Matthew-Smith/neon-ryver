@@ -134,9 +134,6 @@
         border: 3px solid #00C2FF;
         border-radius: 10px;
         background: rgba(64, 64, 64, 1)!important;
-        -webkit-box-shadow: 0px 0px 50px 2px #00C2FF;
-        -moz-box-shadow: 0px 0px 50px 2px #00C2FF;
-        box-shadow: 0px 0px 50px 2px #00C2FF;
     }
 
     .preview-image-dialog__body {
